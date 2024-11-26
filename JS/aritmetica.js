@@ -49,6 +49,6 @@ function suma(){
         else{
             resultadoTotal.innerHTML="El resultado es: "+ resultadoSuma;
         }
-        }
-
+        
+        
    

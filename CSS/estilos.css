@@ -1,7 +1,29 @@
-input[ type= "button"]{
+input[type="text"], input[type="button"]{
+    padding: 10px;
+    background-color: rgba(231, 210, 252, 0.3);
+    background-image: url(../imagenes/granizo.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 10px;
+}
+input[type="button"]{
+    background-color: aqua;
+}
+#dato1{
+   
+    font-weight: bold;
+    font-size: 15px;
+}
+.forma{
+    margin: 25px 0px 0px 25px;
+    padding: 15px;
+    border: 2px dashed coral;
+    border-radius: 8px;
+    width: 40%;
 
-    width: 20 px;
-    padding: 30px;
-    background-color: rgba(218, 156, 226, 0.521);
-
+}
+.color-verde{
+    color: green;
+    font-size: 25px;
 }
